@@ -394,8 +394,7 @@
     font-size: 27px;
     color:black;
     border-color: transparent;
-    border-radius: 25px
-    border:2.5px solid white;
+    border-radius: 25px;
     position: absolute;
     top: 720px;
     right: 170px;
@@ -406,7 +405,7 @@
     background-color:white;
     color:black;
     transition-delay: 0.35s;
-    border:2.5px solid aqua;
+    
 }
 
 
