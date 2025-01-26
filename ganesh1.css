@@ -1,0 +1,599 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: arial;
+    background-color:black;
+    color: #FFFFFF;
+    box-sizing: border-box;
+  
+    
+   
+}
+.size{
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    position: fixed;
+    top:  0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    z-index: 1;
+   
+  
+   
+
+
+}
+
+
+
+.samir{
+   margin-top:2px;
+   margin-left:2px;
+    height: 40px;
+    width: 180px;
+    text-align: left;
+    position: fixed;
+}
+
+.pant:before{
+    content: "";
+    position: absolute;
+    bottom:5px;
+    height:3px;
+    width: 99.9%;
+    background:aqua;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+ }
+ 
+ .pant:hover:before{
+     transform: scaleX(1);
+     transform-origin:left;
+ }
+
+
+
+
+
+#navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width:700px;
+    height: 40px;
+   background-color:black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   align-items: center;
+   z-index: 1;
+  
+    
+  
+    
+
+}
+ 
+#navbar a{
+   text-decoration: none;
+   color: white;
+   font-family: 'Times New Roman';
+   display:block;
+   text-align: center;
+   cursor: pointer;
+   background-color: black;
+   z-index: 1;
+
+  
+
+}
+
+
+    
+.S-media{
+    width:100px ;
+    z-index: 1;
+}
+.S-media:before{
+    content: "";
+    position: absolute;
+    bottom:5px;
+    height:2px;
+    width: 65px;
+    left: 460px;
+    background: aqua;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+ }
+ 
+ .S-media:hover:before{
+     transform: scaleX(1);
+ }
+
+
+.Projects{
+    width: 100px;
+    z-index: 1;
+}
+.Projects:before{
+    content: "";
+    position: absolute;
+    bottom:5px;
+    height:2px;
+    width: 62px;
+    left: 240px;
+    background:aqua;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+ }
+ 
+ .Projects:hover:before{
+     transform: scaleX(1);
+ }
+.Contract{
+    
+    width: 100px;
+    z-index: 1;
+}
+.Contract:before{
+   content: "";
+   position: absolute;
+   bottom:5px;
+   height:2px;
+   width: 65px;
+   left: 350px;
+   background:aqua;
+   border-radius: 50px;
+   transform: scaleX(0);
+   transition: transform 0.2s linear;
+}
+
+.Contract:hover:before{
+    transform: scaleX(1);
+}
+.About{
+    width: 100px;
+    z-index: 1;
+
+}
+.About:before{
+    content: "";
+    position: absolute;
+    bottom:5px;
+    height:2px;
+    width: 55px;
+    left: 135px;
+    background:aqua;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+ }
+ 
+ .About:hover:before{
+     transform: scaleX(1);
+ }
+.Home{
+    width: 100px;
+    z-index: 1;
+}
+.Home:before{
+    content: "";
+    position: absolute;
+    bottom:5px;
+    height:2px;
+    width: 60px;
+    left: 20px;
+    background: aqua;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+ }
+ 
+ .Home:hover:before{
+     transform: scaleX(1);
+ }
+.Start{
+    color: black;
+    background-color:aqua;
+    height: 40px;
+    align-self: center;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: 40;
+    font-family: Tahoma;
+   
+}
+
+.Start:hover{
+    background-color: white;
+    transition-delay: 0.25s;
+}
+#click{
+    
+    width: 40px;
+    height: 10px;
+    background-color: black;
+}
+.write{
+    background-image: url(yoy.jpg);
+    background-size: cover;
+    height: 730px;
+    z-index: 0;
+   
+}
+
+
+
+
+
+
+.wel{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    font-family:monospace;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder*3;
+    background: transparent;
+    z-index: 0;
+}
+.wel:hover{
+   color: aqua;
+   transition-delay: 0.25s;
+
+}
+
+.project1{
+    width: 100px;
+    height: 100px;
+    background-image: url(logo.jpg);
+   background-size: cover;
+   position: absolute;
+   top: 210px;
+   left: 250px;
+   border-radius: 5px;
+
+}
+
+.project1:hover{
+    border: 2px solid aqua;
+}
+
+
+.project2{
+    width: 100px;
+    height: 100px;
+    background-image: url(child.jpg);
+   background-size: cover;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    border-radius: 5px;
+}
+
+.project2:hover{
+    border: 2px solid aqua;
+}
+
+
+.project3{
+    width: 100px;
+    height: 100px;
+    background-image: url(furniture.jpg);
+   background-size: cover;
+    padding-bottom: 6px;
+    position: absolute;
+    top: 490px;
+    left: 250px;
+    border-radius: 5px;
+}
+
+.project3:hover{
+    border: 2px solid aqua;
+}
+
+.project4{
+    width: 100px;
+    height: 100px;
+   background-image: url(word.png);
+   background-size: cover;
+    padding-bottom: 6px;
+    position: absolute;
+    top: 630px;
+    left: 250px;
+    border-radius: 5px;
+}
+
+.project4:hover{
+    border: 2px solid aqua;
+}
+
+.writing1 {
+    width: 660px;
+    height: 65px;
+   position: absolute;
+   top: 210px;
+   left: 590px;
+   color:aqua;
+   background-color: transparent;
+   font-size: 18px;
+   font-family: cursive;
+    
+}
+
+.writing1:hover{
+    color: white;
+}
+
+
+.writing2 {
+    width: 660px;
+    height: 65px;
+   position: absolute;
+   top: 350px;
+   left: 590px;
+   color:white;
+   background-color: transparent;
+   font-size: 18px;
+   font-family: cursive;
+    
+}
+
+.writing2:hover{
+    color: aqua;
+}
+
+.writing3 {
+    width: 660px;
+    height: 65px;
+   position: absolute;
+   top: 490px;
+   left: 590px;
+   color:aqua;
+   background-color: transparent;
+   font-size: 18px;
+   font-family: cursive;
+    
+}
+
+.writing3:hover{
+    color: white;
+}
+
+.writing4 {
+    width: 660px;
+    height: 65px;
+    position: absolute;
+    top: 630px;
+    left: 590px;
+    color:white;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: cursive;
+    
+}
+
+.writing4:hover{
+    color: aqua;
+}
+
+
+.join{
+    width:134px;
+    height: 41px;
+    background-color:aqua;
+    font-family:arial;
+    font-weight: 40px;
+    font-size: 27px;
+    color:black;
+    border-color: transparent;
+    border-radius: 25px;
+    position: absolute;
+    top: 720px;
+    right: 170px;
+    
+
+}
+.join:hover{
+    background-color:white;
+    color:black;
+    transition-delay: 0.35s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hole{
+    height: 230px;
+    width: 100%;
+    background-color:black;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  
+   
+}
+
+.soal{
+   text-align: left;
+   display: block;
+   position: absolute;
+   top: 820px;
+   left: 20px;
+   background-color: transparent;
+}
+.soal a{
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    background-color: transparent;
+}
+.coal{
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 820px;
+    left: 48%;
+ }
+ .coal a{
+     text-decoration: none;
+     font-family: 'Times New Roman';
+     font-size: 18px;
+     background-color: transparent;
+    ;
+ }
+ .house{
+    padding-bottom: 11px;
+ }
+
+ .house:hover{
+    color: aqua;
+ }
+ .info{
+    padding-bottom: 11px;
+ }
+ .info:hover{
+    color: aqua;
+ }
+ .call{
+    padding-bottom: 11px;
+ }
+ .call:hover{
+    color: aqua;
+ }
+
+ .lab
+ {padding-bottom: 11px;
+}
+.lab:hover{
+    color: aqua;
+ }
+
+ .chat
+ {padding-bottom: 11px;
+}
+.chat:hover{
+    color: aqua;
+ }
+
+ .face
+ {padding-bottom: 11px;
+}
+.face:hover{
+    color: aqua;
+ }
+
+.box{
+    text-align: right;
+    display: block;
+    position: absolute;
+    top: 793px;
+    right: 140px;
+ }
+
+ .image{
+    background-image: url(bb.jpg);
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+   
+ }
+ .text{
+    text-align: center;
+    font-size: 18px;
+    font-family: Tahoma;
+    background-color: transparent;
+    position: absolute;
+    top: 930px;
+    right: 124px;
+ }
+  
+ .hire{
+    color: black;
+    background-color: aqua;
+    position: absolute;
+    top: 930px;
+    right: 40px;
+    font-family: arial;
+    width:75px;
+    height: 25px;
+    font-weight:bold;
+    font-size: 15px;
+    color:black;
+    border-color: transparent;
+    border-radius: 25px;
+   
+
+ }
+   
+ .hire:hover{
+   background-color: white;
+ }
+    
+ 
+ .facebook i{
+    position: absolute;
+    top: 960px;
+    left:700px;
+    background: transparent;
+    text-decoration: none;
+ }
+
+ .twitter i{
+    position: absolute;
+    top: 960px;
+    left:750px;
+    background: transparent;
+    text-decoration: none;
+  
+ }
+
+ .telegram i{
+    position: absolute;
+    top: 960px;
+    left:800px;
+    background: transparent;
+    text-decoration: none;
+   
+ }
+
+ .copy{
+    color: aqua;
+    position: absolute;
+    top: 960px;
+    right: 150px;
+    background: transparent;
+    font-size: smaller;
+    font-family:cursive;
+ }
+
+ .copy:hover{
+    color: white;
+    font-size: small;
+ }
+
+    
+   
+    
+    
+ 
