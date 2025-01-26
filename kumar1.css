@@ -334,6 +334,7 @@
 
 .writing1:hover{
     color: white;
+    padding:3px
 }
 
 
@@ -352,6 +353,7 @@
 
 .writing2:hover{
     color: aqua;
+     padding:3px
 }
 
 .writing3 {
@@ -369,6 +371,7 @@
 
 .writing3:hover{
     color: white;
+     padding:3px
 }
 
 .writing4 {
@@ -386,6 +389,7 @@
 
 .writing4:hover{
     color: aqua;
+     padding:3px
 }
 
 .wall{
